@@ -1,0 +1,17 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  client:
+    # The Eureka server itself doesn't need to register with
+    # or fetch from another Eureka instance — it IS the registry.
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    # Faster eviction of dead instances — fine for local dev,
+    # you'd tune this differently in real production.
+    eviction-interval-timer-in-ms: 5000

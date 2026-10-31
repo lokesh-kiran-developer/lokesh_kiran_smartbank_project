@@ -1,0 +1,15 @@
+# Build output
+target/
+*.jar
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
