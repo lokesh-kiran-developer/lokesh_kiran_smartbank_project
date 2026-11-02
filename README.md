@@ -1,5 +1,5 @@
 # SmartBank — Microservices Fund Transfer System
-## Built as a personal learning project with AI assistance. See the roadmap for what is not implemented yet.
+## Built with AI assistance (For Java 17). See the roadmap for what is not implemented yet.
 
 Spring Boot microservices project: **Account Service** and **Transaction Service** communicating
 through **Eureka** service discovery and a **Spring Cloud Gateway**, with a **Resilience4j circuit
